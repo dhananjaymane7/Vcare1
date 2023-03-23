@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chatbot Javascript </title>
+<link rel="stylesheet" href="chatbot.css" />
+</head>
+<body>
+<div class="glass">
+<h1>Ask Your Question??</h1>
+<h2>Yeah,ask Some Question like this ?</h2>
+<h3>What is VCare?</h3>
+<h3>Where I can find Vcare office?</h3>
+<h3>How Vcare handle psychology?</h3>
+<h3>How can we get best psychologist?</h3>
+<h3>Is Vcare psychological clinic?</h3>
+<h3>How does online consultation works?</h3>
+<h3>How to talk to psychologist online?</h3>
+<h3>What condition that we need therapy?</h3>
+<div class="input">
+<input
+type="text"
+id="userBox"
+onkeydown="if(event.keyCode == 13){ talk()}"
+placeholder="Type your Question"
+/>
+</div>
+<p id="chatLog">Answer Appering Hear</p>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
